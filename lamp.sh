@@ -15,6 +15,8 @@ apt install mysql-server -y
 ufw allow in "Apache"
 ufw allow in "Apache Full"
 apt install php libapache2-mod-php php-mysql 
+#For phpBB
+#sudo apt install libapache2-mod-php7.4 php7.4-gd php7.4-curl openssl php-imagick php7.4-intl php7.4-json php7.4-ldap php7.4-common php7.4-mbstring php7.4-mysql php7.4-imap php7.4-sqlite3 php-net-ftp php7.4-zip unzip php7.4-pgsql php-ssh2 php7.4-xml
 #
 #runs mysql and apache on startup
 systemctl enable apache2
